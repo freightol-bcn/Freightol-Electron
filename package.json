@@ -1,6 +1,6 @@
 {
   "name": "freightol-electron",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "index.js",
   "repository": "https://github.com/freightol-bcn/Freightol-Electron",
@@ -32,7 +32,7 @@
         "provider": "github",
         "owner": "freightol-bcn",
         "repo": "Freightol-Electron",
-        "token": "02ab1d4c262d60bbcdd060f9af6709c065272406"
+        "token": "a157d9e5cc571e6d473ab94e04fc2dafd2d46988"
       }
     ],
     "appId": "enupal-electronv1",
