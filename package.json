@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "description": "",
   "main": "index.js",
-  "repository": "github.com/hassnian-freightol/freightol-electron",
+  "repository": "https://github.com/freightol-bcn/Freightol-Electron",
   "scripts": {
     "postinstall": "install-app-deps",
     "start": "electron .",
@@ -11,7 +11,8 @@
     "dist": "electron-builder --x64",
     "dist-all": "electron-builder -mwl",
     "clean": "rimraf ./dist",
-    "publish": "electron-builder --x64 -p always"
+    "publish": "electron-builder --x64 -p always",
+    "script1": "set WIN_CSC_LINK=./key_app.p12 && set WIN_CSC_KEY_PASSWORD= && electron-builder --x64 -p always"
   },
   "keywords": [],
   "author": "",
@@ -29,9 +30,9 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "hassnian-freightol",
-		"repo": "freightol-electron",
-		"token": "cff2136d7ad24b3321776b7289f407183dd93cfb"
+        "owner": "freightol-bcn",
+        "repo": "Freightol-Electron",
+        "token": "02ab1d4c262d60bbcdd060f9af6709c065272406"
       }
     ],
     "appId": "enupal-electronv1",
