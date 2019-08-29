@@ -32,7 +32,7 @@ function createWindow(){
 
 	// mainWindow.setProgressBar(10)
 	// OPNE DEVLTOOLS
-	mainWindow.webContents.openDevTools()
+	// mainWindow.webContents.openDevTools()
 	
 	
 	mainWindow.on("close",()=> win= null)
